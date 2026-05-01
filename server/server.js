@@ -10,11 +10,15 @@ connectDB();
 
 const app = express();
 
-
+// MIDDLEWARE
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("TaskFlow API Running...");
+});
 
+// ROUTES
 app.use(
   "/api/auth",
   require("./routes/authRoutes")
@@ -30,9 +34,10 @@ app.use(
   require("./routes/taskRoutes")
 );
 
-
+// PORT
 const PORT = 5000;
 
+// SERVER
 app.listen(PORT, () => {
   console.log(
     `Server running on port ${PORT}`
