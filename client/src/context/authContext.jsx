@@ -18,7 +18,6 @@ const AuthProvider = ({ children }) => {
     }
   }, []);
 
-  // SIGNUP
   const signup = async (formData) => {
     try {
       const res = await axios.post(
