@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 
 const API =
-  "http://localhost:5000/api";
+  "https://team-task-manager-nine-chi.vercel.app/api";
 
 export default function MyTasks() {
   const token =

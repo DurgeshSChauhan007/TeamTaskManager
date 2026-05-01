@@ -1,5 +1,4 @@
 
-
 import {
   useEffect,
   useState,
@@ -17,7 +16,7 @@ import ProjectCard from "../components/ProjectCard";
 
 import CreateProjectModal from "../components/CreateProjectModal";
 
-const API = "http://localhost:5000/api";
+const API = "https://team-task-manager-nine-chi.vercel.app/api";
 
 export default function Projects() {
   const token =

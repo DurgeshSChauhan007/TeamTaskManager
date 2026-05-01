@@ -23,7 +23,7 @@ import CreateTaskModal from "../components/CreateTaskModal";
 
 import AddMemberModal from "../components/AddMemberModal";
 
-const API = "http://localhost:5000/api";
+const API = "https://team-task-manager-nine-chi.vercel.app/api";
 
 export default function ProjectDetails() {
   const { id } = useParams();

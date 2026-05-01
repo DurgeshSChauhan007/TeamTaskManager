@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 
 import { Link } from "react-router-dom";
 
-const API = "http://localhost:5000/api";
+const API = "https://team-task-manager-nine-chi.vercel.app/api";
 
 export default function Dashboard() {
   const token =

@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 
-import hero from "../assets/hero.png";
+import hero from "../assets/hero.jpg";
 import asset1 from "../assets/asset1.jpg";
 
 export default function Home() {

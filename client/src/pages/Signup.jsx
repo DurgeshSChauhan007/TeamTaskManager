@@ -1,5 +1,4 @@
 
-
 import {
   useContext,
   useState,
@@ -64,7 +63,7 @@ export default function Signup() {
         );
 
         setTimeout(() => {
-          navigate("/login");
+          navigate("/");
         }, 1000);
       } else {
         toast.error(

@@ -6,7 +6,7 @@ import axios from "axios";
 
 import { toast } from "react-toastify";
 
-const API = "http://localhost:5000/api";
+const API = "https://team-task-manager-nine-chi.vercel.app/api";
 
 export default function CreateTaskModal({
   projectId,

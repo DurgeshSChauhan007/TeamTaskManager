@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 import TaskStatusBadge from "./TaskStatusBadge";
 
-const API = "http://localhost:5000/api";
+const API = "https://team-task-manager-nine-chi.vercel.app/api";
 
 export default function TaskCard({
   task,

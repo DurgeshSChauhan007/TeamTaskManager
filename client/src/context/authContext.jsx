@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 
 export const AuthContext = createContext();
 
-const API = "http://localhost:5000/api";
+const API = "https://team-task-manager-nine-chi.vercel.app/api";
 
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
